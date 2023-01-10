@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+          rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="stats-container">
+            <div id="player-turn"></div>
+            <div id="player-one-score"></div>
+            <div id="player-two-score"></div>
+            <div id="player-three-score"></div>
+            <div id="player-four-score"></div>
+            <div id="time"></div>
+        </div>
+        <div class="game-container"></div>
+        <button id="stop" class="hide">Stop Game</button>
+    </div>
+    <div class="controls-container">
+        <p id="result"></p>
+        <button id="start">Start Game</button>
+        <select id="size">
+            <option value="12">3x4</option>
+            <option value="16">4x4</option>
+            <option value="20">5x4</option>
+        </select>
+        <select id="type">
+            <option value="1">dogs</option>
+            <option value="2">cats</option>
+            <option value="3">dinasours</option>
+        </select>
+        <select id="player-number">
+            <option value="2">2 Players</option>
+            <option value="3">3 Players</option>
+            <option value="4">4 Players</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
